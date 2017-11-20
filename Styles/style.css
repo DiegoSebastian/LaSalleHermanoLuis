@@ -970,7 +970,7 @@ body {
 	} 
 }
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 600px) {
 	.header {
 		height: 100vh;
 	}
