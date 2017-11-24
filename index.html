@@ -4,95 +4,105 @@
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
 	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
-	<link rel="stylesheet" href="Styles/style.min.css">
+	<link rel="stylesheet" href="Styles/app.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Inicio | La Salle Hermano Luis</title>
 </head>
 
 <body>
+	<!-- HEADER -->
+
 	<header class="header" id="header">
-		<div class="more">
-			<a href="#institucion" class="btn_more">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</a>
-		</div>
-		<section class="menu">
-			<a href="index.html">
-				<img class="logoHeader" src="../Diseño/Imagenes/Logo.png" alt="Logo La Salle Hermano Luis" height="120">
-			</a>
-			<nav class="menu_nav" id="menu_nav">
-				<ul>
-					<li>
-						<a href="/index.html">Inicio</a>
-					</li>
-					<li>
-						<a href="/#institucion">Institución </a>
-					</li>
-					<li class="menuActi">
-						<a href="/#secciones">Actividades
-							<i class="fa fa-angle-down" aria-hidden="true"></i>
-						</a>
-						<div class="subMenu">
-							<ul class="subLista">
-								<a href="/html/grupo.html">
-									<li>Grupo estable</li>
-								</a>
-								<a href="/html/salidas.html">
-									<li>Salidas</li>
-								</a>
-								<a href="/html/actos.html">
-									<li>Actos</li>
-								</a>
-							</ul>
-						</div>
-					</li>
-					<li class="menuActi">
-						<a href="/#secciones">Información
-							<i class="fa fa-angle-down" aria-hidden="true"></i>
-						</a>
-						<div class="subMenu">
-							<ul class="subLista">
-								<a href="/html/convo.html">
-									<li>Convocatorias</li>
-								</a>
-								<a href="/html/crono.html">
-									<li>Cronogramas</li>
-								</a>
-								<a href="/html/hora.html">
-									<li>Horarios</li>
-								</a>
-							</ul>
-						</div>
-					</li>
-				</ul>
-			</nav>
-			
-		</section>
-		
-		<section class="descripcion">
-			<h1>La Salle Hermano Luis</h1>
-			<h2 class="desch2">U.E La Salle Hermano Luis. Instituto Lasallista Ubicado en Mérida-Venezuela</h2>
-			<h2>Fé - Fraternidad - Servicio</h2>
-		</section>
-	</header>
-	<hr class="divisor">
-	<main>
-		<article class="institucion" id="institucion">
-			<h1 class="titleA">Institución</h1>
-			<section class="barra1">
-				<div class="textBarra1">
-					<h2>Historia</h2>
-					<p>Dolore dolor eiusmod laboris id officia ad et minim sunt labore ut et reprehenderit ut sit officia excepteur dolore
-						laboris ut fugiat quis qui duis ut nisi anim. Ea id aute nulla occaecat eu ex amet nostrud ex elit duis eu sunt pariatur
-						veniam cillum magna ullamco anim magna consequat dolor id laborum do fugiat adipisicing est eiusmod.Dolore dolor eiusmod
-						laboris id officia ad et minim sunt labore ut et reprehenderit ut sit officia excepteur dolore laboris ut fugiat quis
-						qui duis ut nisi anim. Ea id aute nulla occaecat eu ex amet nostrud ex elit duis eu sunt pariatur veniam cillum magna
-						ullamco anim magna consequat dolor id laborum do fugiat adipisicing est eiusmod.</p>
+		<div class="container">
+			<div class="logo_menu">
+				<div class="logitoHeader">
+					<a href="index.html">
+						<img class="logoHeader" src="../Diseño/Imagenes/Logo.png" alt="Logo La Salle Hermano Luis" height="120">
+					</a>
 				</div>
+				<section class="menu">
+					<nav class="menu_nav" id="menu_nav">
+						<ul>
+							<li>
+								<a href="/index.html">Inicio</a>
+							</li>
+							<li>
+								<a href="/#institucion">Institución </a>
+							</li>
+							<li class="menuActi">
+								<a href="/#secciones">Actividades
+									<i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<div class="subMenu">
+									<ul class="subLista">
+										<a href="/html/grupo.html">
+											<li>Grupo estable</li>
+										</a>
+										<a href="/html/salidas.html">
+											<li>Salidas</li>
+										</a>
+										<a href="/html/actos.html">
+											<li>Actos</li>
+										</a>
+									</ul>
+								</div>
+							</li>
+							<li class="menuActi">
+								<a href="/#secciones">Información
+									<i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<div class="subMenu">
+									<ul class="subLista">
+										<a href="/html/convo.html">
+											<li>Convocatorias</li>
+										</a>
+										<a href="/html/crono.html">
+											<li>Cronogramas</li>
+										</a>
+										<a href="/html/hora.html">
+											<li>Horarios</li>
+										</a>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+		
+				</section>
+			</div>
+	
+			<section class="descripcion">
+				<h1>La Salle Hermano Luis</h1>
+				<h2 class="desch2">U.E La Salle Hermano Luis. Instituto Lasallista Ubicado en Mérida-Venezuela</h2>
+				<h2>Fé - Fraternidad - Servicio</h2>
 			</section>
+		</div>
+	</header>
+
+	<!-- /HEADER -->
+
+	<hr class="divisor">
+
+	<!-- MAIN -->
+	<main>
+		<section class="institucion" id="institucion">
+			<h1 class="titleA">Institución</h1>
+			<article class="historia">
+				<section class="barra1">
+					<div class="textBarra1">
+						<h2>Historia</h2>
+						<p>Dolore dolor eiusmod laboris id officia ad et minim sunt labore ut et reprehenderit ut sit officia excepteur dolore
+							laboris ut fugiat quis qui duis ut nisi anim. Ea id aute nulla occaecat eu ex amet nostrud ex elit duis eu sunt pariatur
+							veniam cillum magna ullamco anim magna consequat dolor id laborum do fugiat adipisicing est eiusmod.Dolore dolor eiusmod
+							laboris id officia ad et minim sunt labore ut et reprehenderit ut sit officia excepteur dolore laboris ut fugiat quis
+							qui duis ut nisi anim. Ea id aute nulla occaecat eu ex amet nostrud ex elit duis eu sunt pariatur veniam cillum magna
+							ullamco anim magna consequat dolor id laborum do fugiat adipisicing est eiusmod.</p>
+					</div>
+				</section>
+			</article>
 			<section class="barra2">
-				<section class="mision">
+				<article class="mision">
 					<h2>Mision</h2>
 					<p>Dolore dolor eiusmod laboris id officia ad et minim sunt labore ut et reprehenderit ut sit officia excepteur dolore
 						laboris ut fugiat quis qui duis ut nisi anim. E id aute nulla occaecat eu ex amet nostrud ex elit duis eu sunt pariatur
@@ -100,9 +110,9 @@
 						laboris id officia ad et minim sunt labore ut et reprehenderit ut sit officia excepteur dolore laboris ut fugiat quis
 						qui duis ut nisi anim. Ea id aute nulla occaecat eu ex amet nostrud ex elit duis eu sunt pariatur veniam cillum magna
 						ullamco anim magna consequat dolor id laborum do fugiat adipisicing est eiusmod.</p>
-				</section>
+				</article>
 
-				<section class="vision">
+				<article class="vision">
 					<h2>Vision</h2>
 					<p>Dolore dolor eiusmod laboris id officia ad et minim sunt labore ut et reprehenderit ut sit officia excepteur dolore
 						laboris ut fugiat quis qui duis ut nisi anim. Ea id aute nulla occaecat eu ex amet nostrud ex elit duis eu sunt pariatur
@@ -110,16 +120,16 @@
 						laboris id officia ad et minim sunt labore ut et reprehenderit ut sit officia excepteur dolore laboris ut fugiat quis
 						qui duis ut nisi anim. Ea id aute nulla occaecat eu ex amet nostrud ex elit duis eu sunt pariatur veniam cillum magna
 						ullamco anim magna consequat dolor id laborum do fugiat adipisicing est eiusmod.</p>
-				</section>
-		</article>
+				</article>
+			</section>
 
 		<hr class="divisor">
 
-		<article class="partSect" id="secciones">
+		<section class="partSect" id="secciones">
 			<h1 class="titleA">Ir a</h1>
 			<div class="secciones">
 				<section class="actividades">
-					<div class="titulo_acti">
+					<div class="tituloActi">
 						<div class="bgSectionActi">
 							<h1>Actividades</h1>
 						</div>
@@ -155,7 +165,7 @@
 					</div>
 				</section>
 				<section class="informacion">
-					<div class="titulo_info">
+					<div class="tituloInfo">
 						<div class="bgSectionInfo">
 							<h1>Información</h1>
 						</div>
@@ -192,18 +202,23 @@
 
 				</section>
 			</div>
-		</article>
+		</section>
 
 		<hr class="divisor">
 
-		<article class="ubicacion">
+		<section class="ubicacion">
 			<h1 class="titleA">Ubicación</h1>
-			<div class="contenedorMap">
+			<div class="mapContainer">
 				<iframe class="mapita" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2345.808983939834!2d-71.16810916863872!3d8.580155110848084!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e64879ffa23f627%3A0xd71eee2c4207e479!2sLa+Salle+College!5e0!3m2!1sen!2sve!4v1510533332007"
 				   width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
-		</article>
+		</section>
 	</main>
+
+	<!-- /MAIN -->
+
+	<!-- FOOTER -->
+
 	<footer class="footer">
 		<section class="columna1">
 			<a href="index.html">
@@ -239,7 +254,14 @@
 				<i class="fa fa-instagram" aria-hidden="true"></i>
 			</a>
 		</section>
+		<section class="creditos">
+			<h2>Hecho por: 
+				<a href="#">Diego Sebastian<span>.dev</span></a>
+			</h2>
+		</section>
 	</footer>
+
+	<!-- /FOOTER -->
 
 	<script src="code.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>

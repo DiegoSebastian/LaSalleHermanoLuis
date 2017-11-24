@@ -1,0 +1,351 @@
+@media screen and (max-width: 800px)
+   // index.html
+   header
+      .container
+         justify-content: center
+   
+   .Hsalidas
+      background-position-y: 0
+
+   .menu
+      float: none
+      margin: 0
+      .menu_nav
+         ul
+            display: flex
+            flex-direction: column
+            align-items: center
+            li
+               padding: 20px
+               border-bottom: 1px solid white
+               a
+                  font-size: 2.25em
+
+   .descripcion
+      position: static
+      padding: 0
+      width: 100%
+      h1
+         display: none
+      h2
+         font-size: 2.25em
+
+   .logitoHeader img
+      width: 500px
+      height: auto
+
+   .logo_menu
+      position: static
+      display: flex
+      flex-direction: column
+      align-items: center
+
+   .barra1
+      .textBarra1
+         p
+            font-size: 1.12em
+
+   .secciones
+      flex-direction: column
+
+   footer
+      flex-direction: column
+      .columna1
+         border-right: none
+         padding: 50px 0
+         .menu_foot
+            ul
+               display: flex
+               flex-direction: column   
+               li
+                  border-bottom: 1px solid #fff
+                  &:first-of-type
+                     border-top: 1px solid #fff
+                  a
+                     font-size: 1.8rem
+      .columna2
+         width: 80%
+         a
+            margin: 10px
+         .face
+            background-color: #3b5998
+         .youtube
+            background-color: #cd201f
+         .insta
+            background-color: #3f729b
+      .creditos
+         text-align: center
+         width: 90%
+         margin: 10px auto
+         h2,
+         a
+            font-size: 1.2rem
+   // Secciones
+   .Hgrupo
+      background-size: cover
+      height: 90vh
+      .descGrupo
+         width: 100%
+         h2
+            display: none
+      .container
+         text-align: center
+   
+   .articulos
+      .art
+         .textSect
+            width: 100%
+            .titleA
+               font-size: 4.2rem
+            p
+               font-size: 1.5rem
+         .imgSect
+            width: 90%
+   
+   .atras button
+      width: 100%
+      margin: 10px 0 10px 0
+
+@media screen and (max-width: 500px)
+   header
+      .container
+         .logoHeader
+            width: 300px
+         .menu
+            .menu_nav
+               ul
+                  .menuActi
+                     .subMenu
+                        display: none
+                        width: 0
+                        height: 0
+                  li
+                     a
+                        font-size: 1.5rem
+         .descripcion
+            h2
+               &:first-of-type
+                  display: none
+               font-size: 1.75rem
+   
+   main
+      .institucion
+         .historia
+            .barra1
+               height: auto
+               transform: skewY(0)
+               .textBarra1
+                  transform: skewY(0)
+         .barra2
+            height: auto
+            flex-direction: column
+            transform: skewY(0)
+            .mision,
+            .vision
+               transform: skewY(0)
+      .secciones
+         .actividades
+            .seleccionActi
+               height: 400px
+               overflow: hidden
+               .ge,
+               .salidas,
+               .actos
+                  height: auto
+                  h1
+                     font-size: 1.3rem
+               .ge
+                  .BGge
+                     h1
+                        margin-top: 20px
+               .salidas
+                  .BGSalidas
+                     h1
+                        margin-top: 20px
+               .actos
+                  .BGActos
+                     h1
+                        margin-top: 20px
+         .informacion
+            .seleccionInfo
+               height: 400px
+               overflow: hidden
+               .convocatorias,
+               .cronogramas,
+               .horarios
+                  height: auto
+                  h1
+                     font-size: 1.3rem
+               .convocatorias
+                  .BGconvo
+                     h1
+                        margin-top: 20px
+               .cronogramas
+                  .BGcrono
+                     h1
+                        margin-top: 20px
+               .horarios
+                  .BGhora
+                     h1
+                        margin-top: 20px
+   footer
+      .creditos
+         width: 90%
+         h2,
+         a
+            font-size: 1rem
+
+            
+         
+   // secciones
+   .Hgrupo
+      height: 100vh
+      .descGrupo
+         margin: 20px 0 0 0
+         background-color: rgba(19, 22, 22, 0.26)
+   
+   .Hsalidas
+      background-position-y: 0 
+      background-size: cover
+   
+   main
+      .container
+         width: 100%
+         max-width: 100%
+         margin: 0
+         .articulos
+            .art
+               padding: 8px
+               margin: 0
+               box-shadow: none
+               .textSect
+                  width: 95%
+                  .titleA
+                     font-size: 2.6rem
+                  p
+                     font-size: 1rem
+                     margin: 10px 0 0 0 
+               .imgSect
+                  width: 100%
+                  margin: 10px 0 0 0
+   footer
+      .columna2
+         flex-direction: column
+
+@media screen and (max-height: 580px)
+   header
+      .container
+         .logo_menu
+            .logitoHeader
+               .logoHeader
+                  width: 300px
+         .menu
+            .menu_nav
+               ul
+                  li
+                     a
+                        font-size: 1.25rem
+         .descripcion
+            h2
+               font-size: 1.25rem
+
+@media screen and (max-width: 400px)
+   main
+      .partSect
+         .secciones
+            .actividades
+               .seleccionActi
+                  h1
+                     font-size: 1rem
+            .informacion
+               .seleccionInfo
+                  h1
+                     font-size: 1rem
+
+@media screen and (max-height : 400px) and (max-width : 750px)
+   header
+      .container
+         text-align: center
+         .descripcion
+            margin-bottom: 10px
+            h2
+               &:first-of-type
+                  display: none
+         .menu
+            .menu_nav
+               ul
+                  flex-direction: row
+                  align-items: center
+                  justify-content: space-around
+                  li
+                     border: none
+                     a
+                        font-size: 1.2rem
+         .logoHeader
+            width: 300px
+   
+   main
+      .institucion
+         .barra2
+            flex-direction: column
+            height: auto
+      .partSect
+         .secciones
+            .actividades
+               .seleccionActi
+                  h1
+                     font-size: 1.2rem
+            .informacion
+               .seleccionInfo
+                  h1
+                     font-size: 1.2rem
+   
+   .Hgrupo
+      height: 100vh
+      .descGrupo
+         margin: 0
+
+@media screen and (max-height : 800px) and (max-width : 1100px)
+   header
+      .container
+         text-align: center
+         .menu
+            width: 100%
+            margin: 0 auto
+   
+   main
+      .partSect
+         .secciones
+            .actividades
+               .seleccionActi
+                  h1
+                     font-size: 1.5rem
+            .informacion
+               .seleccionInfo
+                  h1
+                     font-size: 1.5rem
+
+@media screen and (max-width: 400px)
+   .Hgrupo
+      .container
+         .descGrupo
+            h1
+               font-size: 2.3rem
+
+   main
+      .institucion
+         .barra2
+            flex-direction: column
+            height: auto
+      .partSect
+         .secciones
+            .actividades
+               .seleccionActi
+                  h1
+                     font-size: 1rem
+            .informacion
+               .seleccionInfo
+                  h1
+                     font-size: 1rem
+
+

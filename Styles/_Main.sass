@@ -1,0 +1,263 @@
+$gris: #3d4253
+
+
+// Institucion
+.institucion
+   margin-top: 3.125em
+   text-align: center
+
+.titleA
+   font-size: 3.75em
+   font-weight: 300
+   color: #3d4253
+   margin-bottom: 50px
+
+.barra1
+   position: relative
+   width: 100%
+   height: 31.25rem
+   padding: 1.25rem
+   background-color: #134eb1
+   transform: skewY(-5deg)
+   border-top: 9px solid #fde37f
+   border-bottom: 9px solid #fff
+   box-shadow: 0px 10px 30px -6px #222222
+   display: flex
+   justify-content: center
+   align-items: center
+   z-index: 2
+   .textBarra1 
+      transform: skewY(5deg)
+      max-width: 500px
+      margin: auto
+      margin-top: 50px
+      h2
+         font-size: 3.125rem
+         text-align: left
+         font-weight: lighter
+         border-bottom: 1px solid white
+         color: #fff
+      p
+         margin-top: 10px 
+         text-align: left
+         color: #fff
+
+.barra2
+   width: 100%
+   height: 34.375rem
+   padding: 20px
+   background-image: url("/Diseño/Imagenes/hands.jpg")
+   background-size: cover
+   background-position: center
+   transform: skewY(5deg)
+   margin-top: 30px
+   border-top: 9px solid #fd8e7fc0
+   border-bottom: 9px solid #fd8e7fc0
+   box-shadow: 0px 10px 30px -6px #222222
+   display: flex
+   align-items: center
+   justify-content: center
+   .mision,
+   .vision
+      text-align: left
+      transform: skewY(-5deg)
+      max-width: 31.25rem
+      margin: 20px
+      h2
+         font-size: 3.125rem
+         text-align: left
+         font-weight: lighter
+         border-bottom: 1px solid white
+         color: #fff
+         width: 80%
+      p
+         margin-top: 10px 
+         text-align: left
+         color: #fff
+
+// Secciones
+
+.secciones
+   display: flex
+   p
+      font-size: .9rem
+      margin: 0 20px
+   a
+      text-decoration: none
+   .actividades
+      .tituloActi
+         background-image: url("/Diseño/Imagenes/people-woman-coffee-meeting.jpg")
+         background-size: cover
+         background-position-y: -100px;
+         color: white
+         font-size: 50px
+         text-align: center
+         font-weight: lighter
+         h1
+            font-weight: lighter
+            padding: 20px
+            color: #fff
+            margin: 0
+         .bgSectionActi
+            background-color: rgba(103, 107, 16, 0.637)
+            text-shadow: 3px 3px 3px black
+      .seleccionActi
+         display: flex;
+         .ge,
+         .salidas,
+         .actos 
+            text-align: center
+            height: 600px
+            display: flex
+            align-items: flex-end
+            justify-content: center
+            color: white
+            font-size: 1.875rem
+            font-weight: lighter
+            cursor: pointer
+            background-size: cover
+            background-position-x: -100px
+            overflow: hidden
+         .ge
+            background-image: url("/Diseño/Imagenes/cellular-education-classroom-159844.jpeg")
+            &:hover
+               .BGge
+                  transform: translateY(0)
+                  background-color: rgba(201, 204, 7, 0.74)
+            .BGge
+                  p
+                        margin-top: 80px
+                        text-shadow: 1px 1px 1px #000
+                  h1
+                        margin-top: 40px
+                        font-weight: 300
+         .salidas
+            background-image: url("/Diseño/Imagenes/salidas.jpeg")
+            background-position-x: -450px
+            &:hover
+               .BGSalidas
+                  transform: translateY(0)
+                  background-color: rgba(201, 204, 7, 0.74)
+            .BGSalidas
+                  p
+                        margin-top: 80px
+                        text-shadow: 1px 1px 1px #000
+                  h1
+                        margin-top: 40px
+                        font-weight: 300
+         .actos
+            background-image: url("../Diseño/Imagenes/1200px-Compañia_de_teatro_infantil_-La_Colmenita_RD-.jpg")
+            &:hover
+               .BGActos
+                  transform: translateY(0)
+                  background-color: rgba(201, 204, 7, 0.74)
+            .BGActos
+                  p
+                        margin-top: 80px
+                        text-shadow: 1px 1px 1px #000
+                  h1
+                        margin-top: 40px
+                        font-weight: 300
+         .BGge, .BGSalidas, .BGActos 
+            width: 100%
+            height: 100%
+            background-color: rgba(119, 121, 3, 0.74)
+            transform: translateY(82%)
+            transition: all .5s ease-in-out
+   .informacion
+      .tituloInfo
+         background-image: url("/Diseño/Imagenes/docs.jpeg")
+         background-size: cover
+         background-position-y: -100px;
+         color: white
+         font-size: 50px
+         text-align: center
+         font-weight: lighter
+         h1
+            font-weight: lighter
+            padding: 20px
+            color: #fff
+            margin: 0
+         .bgSectionInfo
+            background-color: rgba(15, 67, 77, 0.637)
+            text-shadow: 3px 3px 3px black
+      .seleccionInfo
+         display: flex;
+         .convocatorias,
+         .horarios,
+         .cronogramas,
+            text-align: center
+            height: 600px
+            display: flex
+            align-items: flex-end
+            justify-content: center
+            color: white
+            font-size: 1.875rem
+            font-weight: lighter
+            cursor: pointer
+            background-size: cover
+            background-position-x: -100px
+            overflow: hidden
+         .convocatorias
+            background-image: url("/Diseño/Imagenes/mesa.jpeg")
+            background-position-x: -100px
+            &:hover
+               .BGconvo
+                  transform: translateY(0)
+                  background-color: rgba(7, 181, 204, 0.74)
+            .BGconvo
+                  p
+                        margin-top: 80px
+                        text-shadow: 1px 1px 1px #000
+                  h1
+                        margin-top: 40px
+                        font-weight: 300
+         .horarios
+            background-image: url("/Diseño/Imagenes/calendario.jpeg")
+            &:hover
+               .BGhora
+                  transform: translateY(0)
+                  background-color: rgba(7, 181, 204, 0.74)
+            .BGhora
+                  p
+                        margin-top: 80px
+                        text-shadow: 1px 1px 1px #000
+                  h1
+                        margin-top: 40px
+                        font-weight: 300
+         .cronogramas
+            background-image: url("/Diseño/Imagenes/writing.jpeg")
+            &:hover
+               .BGcrono
+                  transform: translateY(0)
+                  background-color: rgba(7, 181, 204, 0.74)
+            .BGcrono
+                  p
+                        margin-top: 80px
+                        text-shadow: 1px 1px 1px #000
+                  h1
+                        margin-top: 40px
+                        font-weight: 300
+         .BGconvo, .BGcrono, .BGhora 
+            width: 100%
+            height: 100%
+            background-color: rgba(6, 126, 106, 0.74)
+            transform: translateY(82%)
+            transition: all .5s ease-in-out
+
+// ubicación
+.ubicacion
+      margin-top: 50px
+      margin-bottom: 100px
+      .mapContainer
+            height: 500px
+            border-top: 5px solid rgb(0, 119, 255)
+            border-bottom: 5px solid rgb(0, 119, 255)
+            overflow: hidden
+            .mapita
+                  position: relative
+                  bottom: 200px
+                  width: 100%
+                  height: 200%
+      
+         

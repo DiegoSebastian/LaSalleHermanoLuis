@@ -1,0 +1,89 @@
+header
+   height: 100vh
+   background-image: url("../Diseño/Imagenes/BackgroundYellow.jpg")
+   background-position: center
+   .container
+      display: flex 
+      flex-direction: column
+      justify-content: center
+      position: relative
+      height: 100%
+
+.logitoHeader
+   display: inline-block
+   margin: 20px 
+   transition: .3s ease-in-out
+   &:hover
+      transform: scale(1.05)
+
+.logo_menu 
+      position: absolute
+      top: 0
+      right: 0
+      left: 0
+
+.menu
+   float: right
+   margin: 70px 30px 30px 30px
+   .menu_nav
+      ul
+         li
+            display: inline-block
+            padding: 0 15px
+            a
+               color: #fff
+               text-decoration: none
+               font-size: 1.875rem
+               font-weight: 300
+               transition: .4s ease-in-out
+               border-bottom: 1px solid transparent
+               &:hover
+                  border-bottom: 1px solid #fff
+            .subMenu
+               position: absolute
+               overflow: hidden
+               height: 100px
+               width: 180px
+               .subLista
+                  position: absolute
+                  top: -100%
+                  transition: .5s 
+                  text-align: left
+                  li
+                     &:hover
+                        border-bottom: 1px solid #fff
+                     display: block
+                     padding: 0
+                     font-size: 1.125rem
+                     border-bottom: 1px solid transparent 
+                     transition: .4s ease-in-out
+         .menuActi
+            &:hover
+               .subMenu
+                  .subLista
+                     top: 0
+            a
+               &:hover
+                  border-bottom: 1px solid #fff
+
+.descripcion
+      position: relative
+      top: 50px
+      color: #fff
+      width: 70%
+      margin: 0 auto
+      padding: 50px
+      background-color:  rgba(19, 22, 22, 0.26)
+      margin-top: 5vh
+      text-align: center
+      h1
+            font-size: 3.75rem
+            font-weight: 300
+            border-bottom: 3px solid #fcc700
+            margin: 40px
+      h2
+            font-size: 20px
+            font-weight: 300
+            margin: 20px
+
+

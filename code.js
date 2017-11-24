@@ -7,7 +7,7 @@ if (mediaquery.matches) {
       let header = document.getElementById("header");
       header.onmousemove = function(e) {
          let x = -(e.clientX / 15 );
-         let y = -(e.clientY / 15 + 500);
+         let y = -(e.clientY / 15 + 800);
          header.style.backgroundPosition = x + 'px ' + y + 'px';
       }
    }
