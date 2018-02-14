@@ -13,3 +13,29 @@ if (mediaquery.matches) {
    }
 }
 
+$(document).ready(function() {
+   let institucion = $('#institucion').offset().top;
+   let secciones = $('#secciones').offset().top;
+
+   $('#btn_ins').on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+         scrollTop: institucion 
+      }, 500)
+   })
+
+   $('#btn-acti').on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+         scrollTop: secciones 
+      }, 500)
+   })
+
+   $('#btn-info').on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+         scrollTop: secciones 
+      }, 500)
+   })
+})
+
